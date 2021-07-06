@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+}
+/* .All_Box{ */
+	/* width: 100%; */
+	/* height: 100%; */
+	/* background-color: rgb(255,255,255); */
+/* } */
+
+.Blank_Left{
+	width: 15%;
+	height: 100%;
+	float:left;
+}
+
+.Left_Box{
+	width: 15%;
+	height: 100%;
+	background-color: rgba(220,220,220,1);
+	float:left;
+	position: fixed;
+}
+
+.Right_Box{
+	width: 85%;
+	height: 100%;
+	/* background-color: rgba(255,100,100,.4); */
+	float:left;
+	padding:2% 0% 0% 0%;
+	box-sizing: border-box;
+}
+
+.Right_Top{
+	width: 13%;
+	height: 15%;
+	padding: 1% 0% 0% 1.5%;
+	margin: 0% 0% 1% 3%;
+	box-sizing: border-box;
+}
+
+.Logo{
+	padding:10% 0% 0% 0%;
+	width:100%;
+	height:17%;
+
+}
+.Logo>img{
+	padding:0% 0% 0% 5%;
+	width:90%;
+	height:86%;
+}
+
+.Left_Down{
+	font-family: 'cwTeXYen', sans-serif;
+	width:100%;
+	height:80%;
+}
+
+.Menu_Text{
+	font-family: 'cwTeXYen', sans-serif;
+	list-style-type:none;
+	font-size:140%;
+	padding:0% 10%;
+}
+
+.menu{
+	margin:20% 0%;
+	height:30%;
+	box-sizing: border-box;
+	list-style-type:none;
+	text-align: center;
+}
+
+.menu>a{
+	font-size:130%;
+	text-decoration:none;
+	color:black;
+	padding:0%;
+}
+
+.Left_Down>ul{
+	padding:0%;
+}
+
+.Logout_word{
+	width:100%;
+	height:20%;
+	text-align: center;
+}
+
+.Logout_word>a{
+	text-decoration:none;
+	font-size:150%;
+	color:black;
+}

@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+.peripheral{
+	background-color: rgba(255,255,255,1);
+	box-sizing: border-box;
+	margin: 0;
+
+}
+
+.Logout-word{
+	width:100%;
+	height:20%;
+	margin:13% 0%;
+}
+
+.Logout-word>a{
+	text-decoration:none;
+	font-size:130%;
+	color: rgba(208, 208, 208, 1);
+}
+
+.logo{
+	width: 55%;
+	height: 10%;
+	box-sizing:border-box;
+	margin: 6% 6% 6% 20%;
+	display: block;
+	box-sizing: border-box;
+}
+
+.logo-box{
+	background-color:rgba(144, 180, 60, 1);
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	display: block;
+	cursor: pointer;
+}
+
+.logo-box > img{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	/* padding: 0 50px; */
+
+}
+
+.collapse{
+	box-sizing:border-box;
+
+}
+
+.Blank-Left{
+	width: 15%;
+	height:100%;
+	box-sizing: border-box;
+	display: block;
+	padding:30px 0; 
+	float:left;
+	
+}
+
+.left{
+	width: 15%;
+	height:100%;
+	box-sizing: border-box;
+	display: block;
+	position: fixed; 
+	background-color:rgba(144, 180, 60, 1);
+	padding:30px 0; 
+	float:left;
+	z-index:99999;
+}
+
+.nav{
+	
+	box-sizing: border-box;
+	list-style-type:none;
+	font-family: 'cwTeXYen', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.menu-title{
+	height: 20%;
+	width: 100%;
+	box-sizing: border-box;
+	list-style-type:none;
+	display: list-item;
+	font-family: 'cwTeXYen', sans-serif;
+	font-size: 120%;
+	color: rgba(79, 79, 79, 1);
+	text-align:left;
+	line-height:100%;
+	margin: 0 0 7px 15px;
+}
+
+.menu{
+	height: 10.61328125%;
+	width: 100%;
+	box-sizing: border-box;
+	list-style-type:none;
+	display: list-item;
+	font-family: 'cwTeXYen', sans-serif;
+	/* font-size: 100%; */
+	color: rgba(79, 79, 79, 1);
+	text-align: center;
+	line-height:200%;
+	margin: 0% 0% 7% 0%;
+}
+
+.menu > a{
+	width: 21.484375%;
+	height: 3.61328125%;
+	text-decoration:none;
+	color: rgba(208, 208, 208, 1);
+	padding: 4% 8%;
+	font-size:100%;
+}
+
+.menu > a:hover{
+	text-decoration:none;
+	color: rgba(240,240,240, 1);
+	
+}
+
+.menu > a:active{
+	text-decoration:none;
+	color: rgba(240,240,240, 1);
+	/*background-color:rgba(40, 148, 155, 1);*/
+}
+
+.menu > a:active{
+	
+	background-color:rgba(40, 148, 155, 1);
+}
+
+.right{
+	box-sizing:border-box;
+	display: block;
+	width: 65%;
+	height: 1%;
+	flex-basis: 75%;
+	float: left;
+}
+
+.movie{
+	width: 90%;
+	margin:2% 22%;
+}
+
+.movie > iframe{
+	width: 800px;
+	height: 600px;
+}

@@ -1,0 +1,42 @@
+@media screen and (max-width: 480px) {
+
+ /* 如果使用者視窗寬度 <= 480px，將字體大小變為 5px */
+.menu-title>a,
+.nav>a,
+.menu>a{
+	font-size: 15px;
+	}
+.Logout-word>a{
+	font-size: 18px;
+	}
+.contect-top > h2{
+	font-size: 130%;
+	}
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 760px) {
+
+/* 如果使用者視窗寬度介於 480px ~ 760px，將字體大小變為 16px */
+.menu-title>a,
+.nav>a,
+.menu>a{
+	font-size: 80%;
+	}
+.Logout-word>a{
+	font-size: 100%;
+	}
+.title-left > h2{
+	font-size: 100%;
+	}
+.contect-top > h2{
+	font-size: 180%;
+	}
+
+}
+	
+
+@media screen and (min-width: 760px) and (max-width: 1316px) {
+
+}	

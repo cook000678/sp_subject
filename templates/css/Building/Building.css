@@ -1,0 +1,51 @@
+.class{
+	width: 43.06279847902196%;
+	/* 480 */
+	height: 48.828125%;
+	/* 500 */
+	margin: 0 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	float:left;
+}
+
+.class1{
+	/* 80 */
+	width:18%;
+	/* 55 */
+	/* height:43.6764%; */
+	border-width:3px;
+	border-style:solid;
+	border-color:rgb(122, 102, 204);
+	margin:3% 2%;
+	padding:3% 0%;
+	float:left;
+	text-align:center;
+	cursor:pointer;/*鼠標*/
+}
+
+.ta{
+	width:80px;
+	height:55px;
+	border-width:3px 3px 3px 3px;
+	border-style:solid;
+	border-color:rgb(0, 0, 0);
+	/* box-sizing:border-box; */
+	margin:10px 10px;
+	padding-top:12px;
+	float:left;
+	text-align:center;
+}
+
+.data{
+	position: relative;
+	
+	height: 500px;
+	padding: 50px 50px;
+	/* margin-top: 50px; */
+	box-sizing: border-box;
+}
+#defs>rect{
+	width: 900px;
+	height: 500px;
+}

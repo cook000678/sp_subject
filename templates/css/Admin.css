@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+.peripheral{
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 1212px;
+	background-color:rgba(230, 230, 230, 1);
+}
+
+.Logout{
+	width:150px;
+	height:50px;
+	background-color:rgba(66,133,244,1);
+	border-radius:10px;
+	
+}
+
+.Logout-word{
+	width: 70px;
+	height: 20px;
+	margin:0 auto;
+	padding:20px 0px;
+}
+
+.left-container{
+	background-color:rgba(144, 180, 60, 1);
+	width: 178.5px;
+	padding: 0 10px;
+	box-sizing:border-box;
+	letter-spacing: normal;
+	display: block;
+	float:left;
+}
+
+.logo{
+	width: 178.5px;
+	height: 66px;
+	box-sizing:border-box;
+	padding: 0px 0px 10px 0px;
+	display: inline-block;
+	/*position:relative;*/
+}
+
+.logo-icn{
+	background-image:url("1.png");
+	background-repeat:no-repeat;
+	background-size:40px 40px;
+	
+}
+
+.collapse{
+	box-sizing:border-box;
+
+}
+
+.left{
+	width: 178.5px;
+	height: 444px;
+	box-sizing:border-box;
+	text-align:left;
+	letter-spacing: normal;
+	display: block;
+	margin: 0 -10px;
+}
+
+.nav{
+	
+	box-sizing: border-box;
+	list-style-type:none;
+	font-family: 'cwTeXYen', sans-serif;
+	font-size: 20px;
+	padding: 0px 0px;
+	text-align: center;
+}
+.menu{
+	height: 37px;
+	width: 178.5px;
+	box-sizing: border-box;
+	list-style-type:none;
+	display: list-item;
+	font-family: 'cwTeXYen', sans-serif;
+	font-size: 20px;
+	color: rgba(79, 79, 79, 1);
+	text-align: center;
+	line-height:37px;
+}
+
+.menu > a{
+	width: 178.5px;
+	height: 37px;
+	text-decoration:none;
+	color: rgba(208, 208, 208, 1);
+	padding: 8px 16px;
+
+}
+
+.menu > a:hover{
+	text-decoration:none;
+	color: rgba(240,240,240, 1);
+	
+}
+
+.menu > a:active{
+	text-decoration:none;
+	color: rgba(240,240,240, 1);
+	/*background-color:rgba(40, 148, 155, 1);*/
+}
+
+.menu > a:active{
+	
+	background-color:rgba(40, 148, 155, 1);
+}
+
+.line{
+	margin-top: 6px;
+	margin-bottom: 12px; 
+}
+
+.right{
+	width:900px;
+	height:443.99px;
+	background-color:rgba(40, 148, 155, 1);
+	box-sizing: border-box;
+	display: inline-block
+}
+
+.building{
+	width:80px;
+	height:400px;
+	/* background-color:rgba(1,1,1,1); */
+	margin:20px 100px;
+	box-sizing: border-box;
+	display: inline-block
+}
+
+.building>img{
+	width:80px;
+	height:400px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+

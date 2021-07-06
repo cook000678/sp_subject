@@ -1,0 +1,33 @@
+@media screen and (max-width: 360px) {
+
+.Menu_Text>h2,
+.menu>a{
+	font-size:70%;
+}
+.Logout_word>a{
+	font-size:60%;
+}
+.Right_Top>h2{
+	width:100%;
+	font-size:80%;
+}
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+.Menu_Text>h2,
+.menu>a{
+	font-size:80%;
+}
+.Logout_word>a{
+	font-size:100%;
+}
+.Right_Top>h2{
+	width:100%;
+	font-size:100%;
+}
+
+
+}
